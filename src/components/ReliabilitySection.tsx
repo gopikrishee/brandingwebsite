@@ -12,8 +12,8 @@ export const ReliabilitySection: React.FC = () => {
     },
     {
       id: 'languages',
-      title: '8 Indian Languages',
-      description: 'Hindi, Gujarati, Tamil, Telugu, Punjabi, Bengali, Marathi, and English.',
+      title: 'English, Telugu & Tamil',
+      description: 'Full interface & audio alerts in English, Telugu (తెలుగు), and Tamil (தமிழ்).',
       icon: <Languages className="w-5 h-5 text-blue-700" />,
       bg: 'bg-blue-50 border-blue-200',
     },

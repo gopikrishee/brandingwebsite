@@ -137,9 +137,8 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onLanguageChange })
             <div className="space-y-2 pt-1 text-xs">
               {[
                 { code: 'en' as Language, label: 'English (Universal)' },
-                { code: 'hi' as Language, label: 'हिन्दी (North India)' },
-                { code: 'gu' as Language, label: 'ગુજરાતી (Western Hub)' },
-                { code: 'mr' as Language, label: 'मराठी (Maharashtra)' },
+                { code: 'te' as Language, label: 'తెలుగు (Telugu)' },
+                { code: 'ta' as Language, label: 'தமிழ் (Tamil)' },
               ].map((item) => (
                 <label
                   key={item.code}

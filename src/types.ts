@@ -1,4 +1,4 @@
-export type Language = 'en' | 'hi' | 'gu' | 'mr';
+export type Language = 'en' | 'te' | 'ta';
 
 export type StoreType = 'kirana' | 'supermarket' | 'boutique';
 

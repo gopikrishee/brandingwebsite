@@ -35,9 +35,8 @@ export const Header: React.FC<HeaderProps> = ({
 
   const languages: { code: Language; label: string; native: string }[] = [
     { code: 'en', label: 'English', native: 'EN' },
-    { code: 'hi', label: 'Hindi', native: 'हिन्दी' },
-    { code: 'gu', label: 'Gujarati', native: 'ગુજરાતી' },
-    { code: 'mr', label: 'Marathi', native: 'मराठी' },
+    { code: 'te', label: 'Telugu', native: 'తెలుగు' },
+    { code: 'ta', label: 'Tamil', native: 'தமிழ்' },
   ];
 
   const scrollTo = (id: string) => {
@@ -155,7 +154,7 @@ export const Header: React.FC<HeaderProps> = ({
                 className="flex items-center space-x-1 px-2.5 py-1.5 rounded-lg border border-slate-200 text-xs font-semibold text-slate-700 hover:bg-slate-50 transition-colors"
               >
                 <Globe className="w-3.5 h-3.5 text-slate-500" />
-                <span className="hidden sm:inline">EN | हिन्दी | ગુજરાતી</span>
+                <span className="hidden sm:inline">EN | తెలుగు | தமிழ்</span>
                 <span className="sm:hidden font-bold uppercase">{currentLang}</span>
                 <ChevronDown className="w-3 h-3 text-slate-400" />
               </button>
