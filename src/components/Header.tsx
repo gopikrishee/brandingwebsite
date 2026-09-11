@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import { 
-  ShieldCheck, 
-  Landmark, 
-  RefreshCw, 
   Globe, 
   PlayCircle, 
   Calendar, 
@@ -51,40 +48,28 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs">
       {/* Top Banner / Ticker */}
       {/* Desktop ticker */}
-      <div className="hidden lg:flex items-center justify-between text-xs px-6 py-2 bg-slate-50 border-b border-slate-200/70 text-slate-600 font-medium">
-        <div className="flex items-center space-x-3">
-          <div className="flex items-center space-x-1.5 bg-emerald-100/70 text-emerald-800 px-2 py-0.5 rounded-full font-semibold text-[11px]">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-600"></span>
-            </span>
-            <span>LIVE BHARAT RETAIL PULSE</span>
-          </div>
-          <span>Trusted by 14,800+ Kiranas, Supermarkets & Boutiques across India</span>
+      <div className="hidden lg:flex items-center relative text-xs px-6 py-2 bg-slate-50 border-b border-slate-200/70 text-slate-600 font-medium min-h-[36px]">
+        {/* Left: Live Bharat Retail Pulse (alignment unchanged) */}
+        <div className="flex items-center space-x-1.5 bg-emerald-100/70 text-emerald-800 px-2 py-0.5 rounded-full font-semibold text-[11px] shrink-0 z-10">
+          <span className="relative flex h-2 w-2">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-600"></span>
+          </span>
+          <span>LIVE BHARAT RETAIL PULSE</span>
         </div>
 
-        <div className="flex items-center space-x-5 text-slate-500 text-[11px]">
-          <div className="flex items-center space-x-1 hover:text-emerald-700 transition-colors cursor-pointer">
-            <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-            <span>NPCI & UPI Certified</span>
-          </div>
-          <span className="text-slate-300">•</span>
-          <div className="flex items-center space-x-1 hover:text-emerald-700 transition-colors cursor-pointer">
-            <Landmark className="w-3.5 h-3.5 text-blue-600" />
-            <span>Bank-Grade Ledger</span>
-          </div>
-          <span className="text-slate-300">•</span>
-          <div className="flex items-center space-x-1 hover:text-emerald-700 transition-colors cursor-pointer">
-            <RefreshCw className="w-3.5 h-3.5 text-teal-600" />
-            <span>Offline Sync Ready</span>
-          </div>
+        {/* Center: Replaced sentence center aligned */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none px-6">
+          <span className="text-slate-700 font-medium text-xs pointer-events-auto">
+            We support Grocery shop, Supermarkets &amp; Boutiques across Andhra and Tamilnadu
+          </span>
         </div>
       </div>
 
       {/* Mobile top announcement banner */}
-      <div className="lg:hidden flex items-center justify-center space-x-2 text-[11px] py-1.5 px-3 bg-amber-50/90 border-b border-amber-200/50 text-amber-900 font-medium">
+      <div className="lg:hidden flex items-center justify-center space-x-2 text-[11px] py-1.5 px-3 bg-amber-50/90 border-b border-amber-200/50 text-amber-900 font-medium text-center">
         <Sparkles className="w-3 h-3 text-amber-600 shrink-0" />
-        <span className="truncate">Trusted by 14,800+ Kiranas, Supermarkets & Boutiques across India</span>
+        <span className="truncate">We support Grocery shop, Supermarkets &amp; Boutiques across Andhra and Tamilnadu</span>
       </div>
 
       {/* Main Nav Bar */}
