@@ -61,7 +61,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Center: Replaced sentence center aligned */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none px-6">
           <span className="text-slate-700 font-medium text-xs pointer-events-auto">
-            We support Grocery shop, Supermarkets &amp; Boutiques across Andhra and Tamilnadu
+            We support Grocery stores, Supermarkets &amp; Boutiques across Andhra and Tamilnadu
           </span>
         </div>
       </div>
@@ -69,7 +69,7 @@ export const Header: React.FC<HeaderProps> = ({
       {/* Mobile top announcement banner */}
       <div className="lg:hidden flex items-center justify-center space-x-2 text-[11px] py-1.5 px-3 bg-amber-50/90 border-b border-amber-200/50 text-amber-900 font-medium text-center">
         <Sparkles className="w-3 h-3 text-amber-600 shrink-0" />
-        <span className="truncate">We support Grocery shop, Supermarkets &amp; Boutiques across Andhra and Tamilnadu</span>
+        <span className="truncate">We support Grocery stores, Supermarkets &amp; Boutiques across Andhra and Tamilnadu</span>
       </div>
 
       {/* Main Nav Bar */}
