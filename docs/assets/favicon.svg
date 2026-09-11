@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="kgBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base rounded icon container -->
+  <rect width="32" height="32" rx="7" fill="url(#kgBg)" />
+
+  <!-- Inner subtle border glow -->
+  <rect x="0.75" y="0.75" width="30.5" height="30.5" rx="6.25" fill="none" stroke="#6ee7b7" stroke-width="0.75" stroke-opacity="0.4" />
+
+  <!-- Kirana Store Awning / Canopy -->
+  <path d="M6 13 L26 13 L24.5 8.5 C24.2 7.6 23.4 7 22.4 7 L9.6 7 C8.6 7 7.8 7.6 7.5 8.5 Z" fill="#ffffff" />
+  <path d="M10.5 7 L12.5 13 M16 7 L16 13 M21.5 7 L19.5 13" stroke="#059669" stroke-width="1.2" stroke-linecap="round" />
+
+  <!-- Shop Counter & Walls -->
+  <rect x="7.5" y="14" width="17" height="11" rx="1.5" fill="none" stroke="#ffffff" stroke-width="1.8" />
+  
+  <!-- Counter Door / Cash Register -->
+  <path d="M13 25 L13 18.5 C13 17.7 13.7 17 14.5 17 L17.5 17 C18.3 17 19 17.7 19 18.5 L19 25" fill="#ffffff" />
+
+  <!-- Growth Sparkle / Upward Star (Top Right) -->
+  <circle cx="24.5" cy="7.5" r="4.5" fill="url(#goldGrad)" />
+  <path d="M24.5 4.5 L25.5 6.8 L28 7.5 L25.5 8.2 L24.5 10.5 L23.5 8.2 L21 7.5 L23.5 6.8 Z" fill="#78350f" />
+</svg>
