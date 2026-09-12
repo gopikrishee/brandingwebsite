@@ -67,9 +67,9 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       {/* Mobile top announcement banner */}
-      <div className="lg:hidden flex items-center justify-center space-x-2 text-[11px] py-1.5 px-3 bg-amber-50/90 border-b border-amber-200/50 text-amber-900 font-medium text-center">
-        <Sparkles className="w-3 h-3 text-amber-600 shrink-0" />
-        <span className="truncate">We support Grocery stores, Supermarkets &amp; Boutiques across Andhra and Tamilnadu</span>
+      <div className="lg:hidden flex items-center justify-center space-x-1.5 text-[11px] sm:text-xs py-2 px-3 bg-amber-50/90 border-b border-amber-200/50 text-amber-900 font-medium text-center leading-snug">
+        <Sparkles className="w-3.5 h-3.5 text-amber-600 shrink-0 self-center" />
+        <span>We support Grocery stores, Supermarkets &amp; Boutiques across Andhra and Tamilnadu</span>
       </div>
 
       {/* Main Nav Bar */}
